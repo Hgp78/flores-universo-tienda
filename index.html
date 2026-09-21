@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Flores Universo — Sabores de Nicaragua. Libros digitales de cocina, bebidas y postres nicaragüenses.">
+<meta name="theme-color" content="#062e63">
+<title>Flores Universo | Sabores de Nicaragua</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#inicio">
+      <img src="assets/logo-flores-universo.jpg" alt="Flores Universo">
+      <span data-i18n="brand_tag">Libros que<br>conservan nuestras raíces ♥</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav" class="nav">
+      <a class="active" href="#inicio" data-i18n="nav_inicio">⌂ &nbsp;Inicio</a>
+      <a href="#libros" data-i18n="nav_libros">▢ &nbsp;Libros</a>
+      <a href="#nosotros" data-i18n="nav_nosotros">♡ &nbsp;Sobre Nosotros</a>
+      <a href="#contacto" data-i18n="nav_contacto">✉ &nbsp;Contacto</a>
+      <div class="language-picker">
+        <button class="language-button" type="button" aria-expanded="false" aria-controls="languageMenu">
+          🌐 <span id="currentLanguage">ES</span> ▾
+        </button>
+        <div class="language-menu" id="languageMenu" role="menu">
+          <button type="button" data-lang="es" role="menuitem">🇳🇮 Español</button>
+          <button type="button" data-lang="en" role="menuitem">🇺🇸 English</button>
+          <button type="button" data-lang="pt" role="menuitem">🇧🇷 Português</button>
+          <button type="button" data-lang="fr" role="menuitem">🇫🇷 Français</button>
+          <button type="button" data-lang="it" role="menuitem">🇮🇹 Italiano</button>
+        </div>
+      </div>
+      <a href="#libros" class="cart">🛒</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-reference"></div>
+  <div class="hero-overlay-content">
+    <div class="hero-copy">
+      <div class="hero-card-text">
+        <span data-i18n="hero_eyebrow">TRADICIÓN · CULTURA · FAMILIA</span>
+        <h1><span data-i18n="hero_title">Sabores de</span> <em data-i18n="hero_country">Nicaragua</em></h1>
+        <p data-i18n="hero_script">En cada receta, un pedacito de nuestra tierra ♥</p>
+      </div>
+      <a class="btn primary" href="#libros"><span data-i18n="hero_cta">📖 &nbsp;Descubre Nuestros Libros</span> <b>›</b></a>
+    </div>
+
+    <div class="flag-only">
+      <!-- Exact flag crop from the approved attached design. No text or badge is placed over it. -->
+      <img src="assets/bandera-aprobada.png" alt="Bandera de Nicaragua">
+    </div>
+
+    <div class="hero-note"><span data-i18n="hero_note">De Nicaragua<br>para el mundo ♥</span></div>
+  </div>
+</section>
+
+<section id="libros" class="collection">
+  <div class="section-heading">
+    <span>✿</span>
+    <h2 data-i18n="collection_title">Nuestra colección</h2>
+    <p data-i18n="collection_subtitle">Libros digitales para disfrutar la auténtica gastronomía nicaragüense</p>
+  </div>
+
+  <div class="products">
+    <article class="product-card">
+      <div class="cover"><img src="assets/cocina-nica.png" alt="Cocina Nicaragüense 2.0" loading="lazy"></div>
+      <div class="product-info">
+        <h3 data-i18n="cocina_title">Cocina Nicaragüense 2.0</h3>
+        <p data-i18n="cocina_desc">Recetas auténticas, fáciles y explicadas paso a paso. Disfruta la tradición en tu hogar.</p>
+        <div class="price">US$ 12.00</div>
+        <a class="buy" data-product="cocina" href="#"><span data-i18n="buy_now">🛒 &nbsp;Comprar ahora</span></a>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="cover"><img src="assets/bebidas-nica.png" alt="Bebidas Nica" loading="lazy"></div>
+      <div class="product-info">
+        <h3 data-i18n="bebidas_title">Bebidas Nica</h3>
+        <p data-i18n="bebidas_desc">Más de 15 bebidas tradicionales nicaragüenses con recetas detalladas, historia y consejos.</p>
+        <div class="price">US$ 15.00</div>
+        <a class="buy" data-product="bebidas" href="#"><span data-i18n="buy_now">🛒 &nbsp;Comprar ahora</span></a>
+      </div>
+    </article>
+
+    <article class="product-card">
+      <div class="cover"><img src="assets/postres-nica.png" alt="Postres Sabor a Nicaragua" loading="lazy"></div>
+      <div class="product-info">
+        <h3 data-i18n="postres_title">Postres Sabor a Nicaragua</h3>
+        <p data-i18n="postres_desc">40 recetas de postres y dulces tradicionales, con historia, cultura y ese sabor de nuestra tierra.</p>
+        <div class="price">US$ 35.00</div>
+        <a class="buy" data-product="postres" href="#"><span data-i18n="buy_now">🛒 &nbsp;Comprar ahora</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<section id="nosotros" class="about-section">
+  <div class="about-inner">
+    <div class="about-heading">
+      <span class="about-kicker" data-i18n="about_kicker">NUESTRA HISTORIA</span>
+      <h2 data-i18n="about_title">Una historia familiar con sabor a Nicaragua</h2>
+    </div>
+    <div class="about-copy">
+      <p data-i18n="about_p1">Flores Universo nace de un sueño familiar: convertir nuestro amor por Nicaragua, nuestra cultura y nuestra gastronomía en un proyecto que podamos compartir con el mundo.</p>
+      <p data-i18n="about_p2">Somos una familia que cree que detrás de cada receta existe una historia, un recuerdo y una parte de nuestras raíces. Por eso reunimos en nuestros libros digitales algunos de los sabores que hacen de Nicaragua un país tan especial.</p>
+      <p data-i18n="about_p3">Nuestra gastronomía es tan variada como nuestra tierra: gallo pinto, nacatamal, baho, indio viejo, vigorón, bebidas tradicionales, postres y dulces típicos. Cada región aporta ingredientes, costumbres y formas de preparar los alimentos que han pasado de generación en generación.</p>
+      <p data-i18n="about_p4">Queremos que nuestras recetas lleguen a los hogares de Nicaragua y también a quienes están lejos de nuestra tierra, para que puedan volver a sentir un pedacito de ella a través de sus sabores.</p>
+      <p class="about-highlight" data-i18n="about_p5">Nuestra misión es sencilla: conservar nuestras raíces, compartir nuestra cultura y llevar un pedacito de Nicaragua a cada rincón del mundo. 🇳🇮❤️</p>
+    </div>
+  </div>
+</section>
+
+<section class="benefits">
+  <div><strong data-i18n="benefit_auth">🌿<br>Recetas auténticas</strong><small data-i18n="benefit_auth_sub">De nuestra tierra a tu mesa</small></div>
+  <div><strong data-i18n="benefit_secure">♧<br>Compra segura</strong><small data-i18n="benefit_secure_sub">A través de Payhip y PayPal</small></div>
+  <div><strong data-i18n="benefit_download">▤<br>Descarga inmediata</strong><small data-i18n="benefit_download_sub">Recibe tu libro al instante</small></div>
+  <div><strong data-i18n="benefit_support">♡<br>Apoya lo nuestro</strong><small data-i18n="benefit_support_sub">Contribuyes a nuestra cultura</small></div>
+</section>
+
+<section id="nosotros" class="culture">
+  <div class="culture-bg"></div>
+  <div class="culture-content">
+    <p data-i18n="culture_title">Nicaragua se saborea,<br>se vive y se comparte ♥</p>
+    <div class="quote" data-i18n="culture_quote">“La buena comida<br>no solo alimenta el cuerpo,<br>también el alma.” ♥</div>
+  </div>
+</section>
+</main>
+
+<footer id="contacto" class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo-flores-universo.jpg" alt="Flores Universo">
+      <p data-i18n="footer_tag">Libros que conservan nuestras raíces.</p>
+    </div>
+    <div class="footer-center">
+      <nav>
+        <a href="#inicio" data-i18n="nav_inicio">Inicio</a><span>|</span>
+        <a href="#libros" data-i18n="nav_libros">Libros</a><span>|</span>
+        <a href="#nosotros" data-i18n="nav_nosotros">Sobre Nosotros</a><span>|</span>
+        <a href="#contacto" data-i18n="nav_contacto">Contacto</a>
+      </nav>
+      <p data-i18n="footer_copy">© 2026 Flores Universo. Todos los derechos reservados.<br>Hecho con ♥ en Nicaragua</p>
+    </div>
+    <div class="footer-map">🇳🇮<br><small data-i18n="footer_pride">Orgullo<br>de nuestra tierra</small></div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
