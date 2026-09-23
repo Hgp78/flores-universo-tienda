@@ -1,40 +1,35 @@
-# Flores Universo — V4
+# Flores Universo — Versión 7
 
-Esta versión mantiene como referencia principal el diseño vertical aprobado por el usuario.
+Tienda digital de libros de gastronomía nicaragüense.
 
-### Cambios confirmados
-- Se conserva la composición vertical y el aspecto profesional de la referencia.
-- La bandera de Nicaragua se usa como imagen del diseño aprobado.
-- La bandera queda estática: NO tiene animación.
-- No se coloca texto, sello, badge ni otro elemento encima de la bandera.
-- Se conservan los tres botones Payhip:
-  - Cocina Nica: `Cq5Vf`
-  - Bebidas Nica: `y0YJb`
-  - Postres: `dpizf`
-- Los PDF no están incluidos en GitHub; permanecen en Payhip.
+## Novedades V7
+- Se conserva la página principal de Flores Universo.
+- Se añade una página de ventas dedicada a **Cocina Nicaragüense 2.0** en `cocina-nica/`.
+- La página de ventas incluye propuesta de valor, contenido, beneficios, oferta, preguntas frecuentes y llamadas a la acción hacia Payhip.
+- El botón **Ver el libro** de Cocina Nica abre la nueva página de ventas.
+- El botón **Comprar ahora** continúa llevando directamente al checkout de Payhip.
+- Se mantienen los 5 idiomas de la tienda principal.
 
-### Publicación
-El repositorio es estático y listo para GitHub Pages.
+## Enlaces de compra
+- Cocina Nica: `https://payhip.com/buy?link=Cq5Vf`
+- Bebidas Nica: `https://payhip.com/buy?link=y0YJb`
+- Postres Sabor a Nicaragua: `https://payhip.com/buy?link=dpizf`
 
-## V5 — Idiomas
-Se agregó selector de idioma en el encabezado con:
-- 🇳🇮 Español
-- 🇺🇸 English
-- 🇧🇷 Português
-- 🇫🇷 Français
-- 🇮🇹 Italiano
-
-La selección se guarda en `localStorage` del navegador para conservar el idioma elegido en visitas posteriores.
-La traducción cubre la navegación, portada, colección, productos, beneficios, sección Sobre Nosotros y pie de página.
+## Publicación
+GitHub Pages puede servir para las pruebas actuales. Para una tienda comercial a largo plazo conviene revisar posteriormente una plataforma de hosting comercial adecuada.
 
 
-## V6 — Carrito de compras
-Se reemplazó el icono pasivo del carrito por un carrito funcional en el sitio:
-- Permite agregar los tres libros.
-- Evita duplicar el mismo libro.
-- Muestra cantidad y total.
-- Permite eliminar artículos.
-- Guarda temporalmente el carrito en `localStorage`.
-- El botón "Pagar en Payhip" genera un checkout de Payhip con todos los productos seleccionados.
-- Mantiene los cinco idiomas.
-- La bandera continúa estática.
+## V7 — Landing pages
+- Cocina Nicaragüense 2.0: `/cocina-nica/`
+- Bebidas Nica: `/bebidas-nica/`
+- Postres y dulces con sabor a Nicaragua: `/postres-nicaragua/`
+- Los botones **Ver el libro** de la colección abren directamente cada landing page.
+- Se añadieron `index.html` de control en `assets/`, `css/` y `js/` para evitar listados de directorio al abrir esas carpetas localmente.
+
+
+### V7 — Galería visual de recetas
+Las tres landing pages incluyen imágenes de platos, bebidas y postres dentro de sus respectivas secciones de contenido.
+
+
+### V7 — Bonos promocionales
+Cada landing page muestra el bono correspondiente al producto dentro de su propia página de ventas: Cocina Nica, Bebidas Nica y Postres Sabor a Nicaragua.
